@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 96" role="img" aria-label="شاص دفع رباعي قصير متجه للأمام بأسلوب ثنائي الأبعاد">
+  <g transform="translate(180 0) scale(-1 1)" stroke="#403127" stroke-width="3" stroke-linejoin="round">
+    <path fill="#b77c3e" d="M10 58h22V40h45l13-18h40l13 18h20v18H10Z"/>
+    <path fill="#b77c3e" d="M87 40h42V22h-28Z"/>
+    <path fill="#b8ced0" d="M96 37l8-11h10v11Zm23 0V26h11l7 11Z"/>
+    <path fill="#6b472c" d="M13 43h58v15H13Z"/>
+    <path fill="#2e2b28" d="M31 57h26v7H31Zm87 0h28v7h-28Z"/>
+    <circle fill="#282623" cx="45" cy="66" r="13"/><circle fill="#d4a45f" cx="45" cy="66" r="5"/>
+    <circle fill="#282623" cx="132" cy="66" r="13"/><circle fill="#d4a45f" cx="132" cy="66" r="5"/>
+    <path fill="#d4a45f" d="M150 43h15v12h-15Z"/>
+    <path fill="none" d="M10 58H4m158 0h10M76 40v18M86 23l-7 17"/>
+  </g>
+</svg>
