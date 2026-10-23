@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="إياب — منصة تفاعلية لاستكشاف الحياة اليومية في مناطق المملكة عبر فترات زمنية مختلفة." />
+    <title>إياب | عودة إلى حكاية مضت</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="auth.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">تجاوز إلى المحتوى</a>
+
+    <header class="site-header" id="home">
+      <div class="header-landscape" aria-hidden="true">
+        <span class="sun-disc"></span>
+        <span class="mountain mountain-one"></span>
+        <span class="mountain mountain-two"></span>
+        <span class="dune dune-one"></span>
+        <span class="dune dune-two"></span>
+        <span class="palm palm-one"></span>
+        <span class="palm palm-two"></span>
+        <span class="village village-one"></span>
+        <span class="village village-two"></span>
+      </div>
+
+      <a class="brand-panel" href="#home" aria-label="إياب — الصفحة الرئيسية">
+        <span class="brand-mark"><img src="assets/iyab-logo.png" alt="شعار إياب" /></span>
+        <span class="brand-tagline">عودة إلى حكاية مضت</span>
+      </a>
+
+      <span class="header-divider-ornament" aria-hidden="true"><i></i><i></i></span>
+
+      <div class="header-capsule">
+        <button class="mobile-menu-button" type="button" aria-expanded="false" aria-controls="main-navigation">
+          <span></span><span></span><span></span><b>القائمة</b>
+        </button>
+
+        <nav class="main-navigation" id="main-navigation" aria-label="التنقل الرئيسي">
+          <a href="#home">الرئيسية</a>
+          <a href="#content-explorer">استكشف المحتوى</a>
+          <a href="timeline.html">الخط الزمني</a>
+          <a href="#journey">اختر رحلتك</a>
+          <a href="#about">عن إياب</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="search-button" type="button" aria-label="فتح البحث" aria-expanded="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+            <span class="search-label-ar">ابحث</span>
+            <span class="search-label-en">Search</span>
+          </button>
+          <button class="language-button" type="button" aria-label="تغيير اللغة إلى الإنجليزية">EN</button>
+          <span class="action-divider" aria-hidden="true"></span>
+          <div class="auth-menu-wrap">
+            <a class="login-button" href="login.html" data-auth-trigger aria-expanded="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c.6-5 3.3-7 8-7s7.4 2 8 7"></path></svg>
+              <span data-auth-name>تسجيل الدخول</span>
+              <svg class="auth-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 9 5 5 5-5"></path></svg>
+            </a>
+            <div class="user-menu" data-user-menu hidden>
+              <a href="account.html"><span>حسابي</span><span aria-hidden="true">♙</span></a>
+              <a href="saved-trips.html"><span>رحلاتي المحفوظة</span><span aria-hidden="true">♧</span></a>
+              <button type="button" data-logout><span>تسجيل الخروج</span><span aria-hidden="true">↪</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="search-drawer" aria-hidden="true">
+      <form class="search-form" role="search">
+        <label for="site-search">ابحث في المحتوى الثقافي والتاريخي</label>
+        <div>
+          <input id="site-search" type="search" placeholder="مثال: الطعام في نجد" autocomplete="off" />
+          <button type="submit">بحث</button>
+        </div>
+      </form>
+    </div>
+
+    <main id="main-content">
+      <section class="hero section-shell" data-hero-scene="present">
+        <div class="hero-stage-scale">
+        <div class="hero-scenes" aria-hidden="true">
+          <div class="hero-scene hero-scene-dawn" data-scene="dawn">
+            <span class="dawn-sun"></span><span class="dawn-glow"></span>
+            <span class="dawn-dune dawn-dune-one"></span><span class="dawn-dune dawn-dune-two"></span><span class="dawn-dune dawn-dune-three"></span>
+            <span class="dawn-bird dawn-bird-one"></span><span class="dawn-bird dawn-bird-two"></span><span class="dawn-bird dawn-bird-three"></span>
+            <img class="dawn-oasis" src="assets/hero-dawn-oasis-original.png" alt="" />
+            <span class="dawn-fabric dawn-fabric-one"></span><span class="dawn-fabric dawn-fabric-two"></span>
+            <span class="dawn-fire"></span><span class="dawn-smoke dawn-smoke-one"></span><span class="dawn-smoke dawn-smoke-two"></span><span class="dawn-smoke dawn-smoke-three"></span>
+            <div class="dawn-road"><i></i><b></b></div>
+            <div class="dawn-caravan-track"><img class="dawn-caravan" src="assets/hero-dawn-caravan-original.png" alt="" /><span class="dawn-trail-dust"></span></div>
+            <span class="dawn-sand-wave"></span>
+          </div>
+
+          <div class="hero-scene hero-scene-okaz" data-scene="okaz">
+            <span class="okaz-sun"></span><span class="okaz-dune okaz-dune-a"></span><span class="okaz-dune okaz-dune-b"></span>
+            <div class="okaz-market-gate"><b>سوق عكاظ</b><i></i><i></i><span></span></div>
+            <div class="okaz-stall okaz-stall-one"><b>الأقمشة</b><i></i><i></i><em></em></div>
+            <div class="okaz-stall okaz-stall-two"><b>الحِرف</b><i></i><i></i><em></em></div>
+            <div class="okaz-poetry"><span></span><i></i><b></b></div>
+            <div class="okaz-pole"><i></i><i></i><i></i><b></b><b></b><span></span></div>
+            <span class="okaz-wire okaz-wire-top"></span><span class="okaz-wire okaz-wire-bottom"></span>
+            <div class="okaz-bulb okaz-bulb-one"></div><div class="okaz-bulb okaz-bulb-two"></div>
+            <div class="okaz-radio"><i></i><b></b><em></em><span></span></div>
+            <span class="okaz-radio-wave okaz-wave-one"></span><span class="okaz-radio-wave okaz-wave-two"></span><span class="okaz-radio-wave okaz-wave-three"></span>
+            <div class="okaz-bike"><i></i><i></i><b></b><em></em><span></span></div>
+            <div class="okaz-road"><i></i><b></b></div>
+            <span class="okaz-dust okaz-dust-one"></span><span class="okaz-dust okaz-dust-two"></span>
+          </div>
+
+          <div class="hero-scene hero-scene-present active" data-scene="present">
+            <span class="present-cloud present-cloud-one"></span>
+            <span class="present-cloud present-cloud-two"></span>
+            <span class="present-cloud present-cloud-three"></span>
+            <img class="present-kafd" src="assets/hero-present-kafd-original.png" alt="" />
+            <div class="present-road"><span class="present-road-line present-road-line-one"></span><span class="present-road-line present-road-line-two"></span><img class="present-car" src="assets/hero-present-ceer-original.png" alt="" /></div>
+          </div>
+        </div>
+
+        <button class="hero-clock" type="button" aria-label="انتقل إلى مشهد سوق عكاظ">
+          <span class="clock-ring outer-ring"><i></i></span>
+          <span class="clock-ring inner-ring"><i></i></span>
+          <span class="clock-etched-ring"></span>
+          <span class="clock-ticks"></span>
+          <span class="clock-sun"></span>
+          <span class="hero-clock-hands"><i class="hero-hour-hand"></i><i class="hero-minute-hand"></i><b></b></span>
+          <span class="clock-gem gem-one"></span><span class="clock-gem gem-two"></span><span class="clock-gem gem-three"></span>
+          <span class="clock-roman roman-twelve">XII</span>
+          <span class="clock-roman roman-three">III</span>
+          <span class="clock-roman roman-six">VI</span>
+          <span class="clock-roman roman-nine">IX</span>
+          <span class="clock-click-wave"></span>
+        </button>
+
+        <div class="hero-content reveal">
+          <span class="eyebrow">اختر زمنًا لنبدأ الحكاية</span>
+          <h1>عش تفاصيل<br />زمن مضى</h1>
+          <p>شاهد كيف تغيّر الطعام والملابس والنقل والتجارة والترفيه بين مناطق المملكة وفتراتها المختلفة.</p>
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#journey">ابدأ رحلتك <span aria-hidden="true">←</span></a>
+            <a class="button button-secondary" href="#timeline">استكشف الخط الزمني</a>
+          </div>
+        </div>
+        <span class="hero-scene-status" aria-live="polite">كافد والحاضر</span>
+        </div>
+      </section>
+
+      <section class="journey-steps section-shell" id="journey">
+        <div class="section-heading reveal">
+          <span class="eyebrow">كيف تبدأ؟</span>
+          <h2>رحلتك في ثلاث خطوات</h2>
+        </div>
+
+        <div class="steps-list">
+          <article class="step-card reveal">
+            <span class="step-number active">1</span>
+            <div><h3>اختر المنطقة</h3><p>حدد المنطقة السعودية التي ترغب في استكشافها.</p></div>
+          </article>
+          <span class="step-line" aria-hidden="true"><i></i></span>
+          <article class="step-card reveal">
+            <span class="step-number">2</span>
+            <div><h3>اختر الفترة الزمنية</h3><p>انتقل إلى الفترة التي تريد معرفة تفاصيلها.</p></div>
+          </article>
+          <span class="step-line" aria-hidden="true"><i></i></span>
+          <article class="step-card reveal">
+            <span class="step-number">3</span>
+            <div><h3>استكشف المحتوى</h3><p>شاهد موضوعات الحياة اليومية المطابقة لاختيارك.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-explorer" id="content-explorer">
+        <div class="section-shell">
+          <div class="section-heading centered reveal">
+            <span class="eyebrow">تفاعل مع المشهد</span>
+            <h2>نافذة على يوم من الماضي</h2>
+            <p>اضغط على إحدى النقاط لتكتشف حكاية من الحياة اليومية.</p>
+          </div>
+
+          <iframe src="window-embed.html" title="نافذة على يوم من الماضي: خمس حكايات تفاعلية" data-window-frame style="display:block;width:100%;height:780px;border:0" loading="eager"></iframe>
+        </div>
+      </section>
+
+      <section class="timeline-section section-shell" id="timeline">
+        <div class="section-heading reveal">
+          <span class="eyebrow">عبر الفترات</span>
+          <h2>لمحة من الخط الزمني</h2>
+          <p>اختر الرحلة أولًا، ثم حدّد المحطة التي تريد استكشافها.</p>
+        </div>
+
+        <iframe src="timeline/home.html" title="الخط الزمني المتحرك: الجمل والشاص والجمس والمترو" data-timeline-frame style="display:block;width:100%;height:350px;border:0;margin-top:30px" loading="eager"></iframe>
+      </section>
+
+      <section class="journey-cta section-shell">
+        <div class="cta-clock" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="reveal"><span class="eyebrow">الآن جاء دورك</span><h2>اختر منطقة وزمنًا<br />وابدأ الحكاية</h2><p>اجمع تفاصيل الحياة اليومية في رحلة واحدة مترابطة.</p></div>
+        <a class="button button-light" href="#journey">ابدأ رحلتك <span aria-hidden="true">←</span></a>
+      </section>
+
+      <section class="about-section section-shell" id="about">
+        <div class="section-heading reveal"><span class="eyebrow">عن إياب</span><h2>عودة إلى حكاية مضت</h2></div>
+        <p class="reveal">إياب موقع تفاعلي ينظم المحتوى الثقافي والتاريخي حسب المنطقة والفترة الزمنية وموضوع الحياة اليومية، ليجعل استكشاف التراث السعودي أوضح وأكثر ترابطًا.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <img src="assets/iyab-logo-footer-a-original.png" alt="شعار إياب" />
+        </div>
+
+        <div class="footer-clock">
+          <div class="antique-clock" id="riyadh-clock" role="img" aria-label="ساعة تعرض الوقت الحالي في المملكة العربية السعودية">
+            <span class="clock-number clock-number-12">XII</span>
+            <span class="clock-number clock-number-3">III</span>
+            <span class="clock-number clock-number-6">VI</span>
+            <span class="clock-number clock-number-9">IX</span>
+            <i class="clock-hand hour-hand"></i>
+            <i class="clock-hand minute-hand"></i>
+            <i class="clock-hand second-hand"></i>
+            <i class="clock-center"></i>
+          </div>
+          <time id="riyadh-time-text" aria-live="off"></time>
+        </div>
+
+        <div class="project-details">
+          <strong>مشروع جامعي تطبيقي</strong>
+          <span>مقرر IT 320 — جامعة الملك سعود</span>
+        </div>
+      </div>
+      <div class="footer-bottom">إياب — عودة إلى حكاية مضت</div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="window-frame.js"></script>
+    <script src="auth.js"></script>
+  <script src="timeline-frame.js"></script>
+<script src="translations.js"></script><script src="i18n.js"></script><script src="site-integration.js"></script></body>
+</html>

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>إياب | المحتوى والبحث</title>
+ <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="auth.css"><link rel="stylesheet" href="content/catalogue.css">
+</head>
+<body class="account-surface catalogue-surface">
+ <div data-shared-header></div>
+ <nav class="catalogue-tabs" aria-label="المحتوى الثقافي"><button id="visit" type="button"></button><button id="admin" type="button"></button></nav>
+ <main id="app" data-i18n-native></main>
+ <dialog id="editor" data-i18n-native aria-label="نموذج المحتوى"></dialog><dialog id="deletion" data-i18n-native aria-label="تأكيد الحذف"></dialog><dialog id="details" data-i18n-native aria-label="تفاصيل المحتوى"></dialog>
+ <div id="toast" role="status" aria-live="polite"></div><p id="catalogue-note"></p>
+ <div data-shared-footer></div>
+ <script src="auth.js"></script><script src="content/seeds.js"></script><script src="content/store.js"></script><script src="translations.js"></script><script src="i18n.js"></script><script src="content/catalogue.js"></script><script src="site-integration.js"></script>
+</body></html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>رحلاتي المحفوظة | إياب</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="auth.css" />
+    <link rel="stylesheet" href="journey.css" />
+  </head>
+  <body class="account-surface">
+    <div data-shared-header></div>
+    <main class="saved-page-main" id="main-content">
+      <section class="saved-content">
+        <header class="saved-heading"><h1>رحلاتي المحفوظة</h1><p>هنا تجد رحلاتك التي حفظتها.</p></header>
+        <p id="saved-status" class="saved-local-note" role="status"></p>
+        <p id="saved-login" class="saved-login" hidden><a href="login.html?returnTo=saved-trips.html">تسجيل الدخول</a> لعرض رحلاتك المحفوظة.</p>
+        <div id="saved-journey-list" class="saved-journey-list" hidden></div>
+        <div class="boat-illustration" aria-hidden="true">
+          <svg viewBox="0 0 620 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M91 244c112 54 299 55 433-8-20 67-92 101-205 101-111 0-193-30-228-93Z" fill="#b77b43" stroke="#744729" stroke-width="7"/>
+            <path d="M105 251c118 31 274 34 402-4M133 278c109 22 232 22 340-5M188 311c79 10 159 8 235-7" stroke="#704326" stroke-width="5" opacity=".65"/>
+            <path d="M303 55v189M303 62l-132 46 132 101V62ZM315 70l139 87-139 50V70Z" stroke="#71462a" stroke-width="7" stroke-linejoin="round"/>
+            <path d="M294 70 190 111l104 79V70Z" fill="#f5e4c5" stroke="#cda97e" stroke-width="3"/>
+            <path d="m316 83 119 72-119 40V83Z" fill="#ead3ad" stroke="#c39a6d" stroke-width="3"/>
+            <path d="M303 49c12 0 19 8 19 17h-38c0-9 8-17 19-17Z" fill="#8c5a32"/>
+            <path d="M212 223h167v38H212z" fill="#8b5831" stroke="#684026" stroke-width="5"/>
+            <rect x="270" y="196" width="73" height="52" rx="7" fill="#75452a" stroke="#5c351f" stroke-width="5"/>
+            <path d="M284 196v-14h44v14M286 215h41M300 214v20" stroke="#d0a269" stroke-width="5"/>
+            <circle cx="243" cy="245" r="7" fill="#e4bb7d" stroke="#704326" stroke-width="4"/><circle cx="363" cy="246" r="7" fill="#e4bb7d" stroke="#704326" stroke-width="4"/>
+            <path d="M151 218c-13-21-8-43 4-55 7 22 23 36 44 44l-48 11Z" fill="#9f6738" stroke="#704326" stroke-width="5"/>
+            <ellipse cx="306" cy="341" rx="230" ry="12" fill="#b98a5f" opacity=".18"/>
+          </svg>
+        </div>
+        <div class="empty-state"><h2>ما عندك رحلات محفوظة بعد</h2><p>ابدأ رحلتك واحفظ الحكايات التي تود العودة إليها.</p><a class="button button-primary" href="index.html#journey">ابدأ رحلتك <span aria-hidden="true">←</span></a></div>
+      </section>
+    </main>
+    <div data-shared-footer></div>
+    <script src="auth.js"></script>
+    <script src="content/seeds.js"></script><script src="content/store.js"></script>
+    <script src="journey-store.js"></script>
+    <script src="saved-journeys.js"></script>
+  <script src="translations.js"></script><script src="i18n.js"></script><script src="site-integration.js"></script></body>
+</html>
