@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>حسابي | إياب</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="auth.css" />
+  </head>
+  <body class="account-surface">
+    <div data-shared-header></div>
+    <main class="profile-main" id="main-content">
+      <section class="auth-art-panel" aria-label="مشهد تراثي من عمارة المملكة"><span class="auth-vertical-ornament" aria-hidden="true"></span></section>
+      <section class="profile-content">
+        <h1>حسابي</h1><p>إدارة بياناتك الشخصية.</p>
+        <form id="profile-form">
+          <div class="profile-section">
+            <h2>بياناتي الشخصية</h2>
+            <div class="profile-row"><label for="profile-name">الاسم الكامل</label><div class="input-wrap"><input id="profile-name" name="name" type="text" required /></div></div>
+            <div class="profile-row"><label for="profile-email">البريد الإلكتروني</label><div class="input-wrap ltr-input"><input id="profile-email" name="email" type="email" required /></div></div>
+          </div>
+          <div class="profile-section">
+            <h2>تغيير كلمة المرور</h2>
+            <div class="profile-row"><label for="current-password">كلمة المرور الحالية</label><div class="input-wrap"><input id="current-password" name="currentPassword" type="password" autocomplete="current-password" /><button class="password-toggle" type="button" aria-label="إظهار كلمة المرور"><svg viewBox="0 0 24 24"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"></path><circle cx="12" cy="12" r="2.5"></circle></svg></button></div></div>
+            <div class="profile-row"><label for="new-password">كلمة المرور الجديدة</label><div class="input-wrap"><input id="new-password" name="newPassword" type="password" autocomplete="new-password" /><button class="password-toggle" type="button" aria-label="إظهار كلمة المرور"><svg viewBox="0 0 24 24"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"></path><circle cx="12" cy="12" r="2.5"></circle></svg></button></div></div>
+            <div class="profile-row"><label for="confirm-password">تأكيد كلمة المرور الجديدة</label><div class="input-wrap"><input id="confirm-password" name="confirmPassword" type="password" autocomplete="new-password" /><button class="password-toggle" type="button" aria-label="إظهار كلمة المرور"><svg viewBox="0 0 24 24"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"></path><circle cx="12" cy="12" r="2.5"></circle></svg></button></div></div>
+          </div>
+          <button class="profile-save" type="submit">حفظ التغييرات</button><p class="profile-status" role="status"></p>
+        </form>
+      </section>
+    </main>
+    <div data-shared-footer></div>
+    <script src="auth.js"></script>
+  <script src="translations.js"></script><script src="i18n.js"></script><script src="site-integration.js"></script></body>
+</html>
