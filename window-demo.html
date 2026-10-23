@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>نافذة على يوم من الماضي — ديمو إياب</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="window-demo.css">
+</head>
+<body>
+<main>
+ <header><span class="eyebrow">تفاعل مع المشهد</span><h1>نافذة على يوم من الماضي</h1><p>خلف كل تفصيلة حكاية؛ اختر إحدى العلامات واكتشفها.</p></header>
+ <section class="experience" aria-label="خمس حكايات من ساحة نجدية">
+  <div class="window" data-active="food">
+   <img class="village" src="assets/window-village-flat-v3.png" alt="رسم توضيحي بدرجات البيج لنافذة نجدية مفتوحة على ساحة فيها سوق وأقمشة وعربة ومجلس، وعلى عتبتها دلة وفناجيل">
+   <div class="sunlight" aria-hidden="true"></div>
+   <div class="steam" aria-hidden="true"><i></i><i></i><i></i></div>
+   <span class="cloth-light" aria-hidden="true"></span><span class="lantern-light" aria-hidden="true"></span>
+   <span class="dust" aria-hidden="true"></span>
+   <button class="point selected" style="--x:55%;--y:72%" data-topic="food" aria-label="الطعام: حكاية المائدة" aria-pressed="true"><span>١</span><b>الطعام</b></button>
+   <button class="point" style="--x:79%;--y:45%" data-topic="clothing" aria-label="الملابس: خيوط من الذاكرة" aria-pressed="false"><span>٢</span><b>الملابس</b></button>
+   <button class="point" style="--x:25%;--y:65%" data-topic="transport" aria-label="النقل: على الطريق الترابي" aria-pressed="false"><span>٣</span><b>النقل</b></button>
+   <button class="point" style="--x:43%;--y:56%" data-topic="trade" aria-label="التجارة: صباح السوق" aria-pressed="false"><span>٤</span><b>التجارة</b></button>
+   <button class="point" style="--x:78%;--y:76%" data-topic="leisure" aria-label="الترفيه: حين يجتمع المجلس" aria-pressed="false"><span>٥</span><b>الترفيه</b></button>
+   <span class="window-note">ساحة نجدية · مشهد تخيّلي من الماضي</span>
+  </div>
+  <aside class="story">
+   <div class="counter"><span>الحكاية المختارة</span><b id="count">١ من ٥</b></div>
+   <div class="miniature"><img src="assets/window-village-flat-v3.png" alt="" id="detail-image"></div>
+   <div class="tags"><span>نجد</span><span>من الحياة اليومية</span><span id="category">الطعام</span></div>
+   <div class="story-copy" aria-live="polite" aria-atomic="true"><h2 id="title">حكاية المائدة</h2><p id="description">رائحة الخبز، وقدر على النار، وأوانٍ تنتظر الضيف. تفاصيل صغيرة تبدأ منها حكاية البيت.</p></div>
+   <button class="read" id="read">افتح الحكاية <span aria-hidden="true">←</span></button>
+   <small>معاينة قصيرة للحكاية</small>
+   <nav aria-label="التنقل بين الحكايات"><button id="previous">→ السابق</button><div class="progress" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i><i></i></div><button id="next">التالي ←</button></nav>
+  </aside>
+ </section>
+ <p class="demo-note">ديمو لتجربة نافذة الماضي — الصفحة الرئيسية الحالية محفوظة كما هي.</p>
+</main>
+<dialog id="story-dialog" aria-labelledby="dialog-title"><button class="close" aria-label="إغلاق الحكاية">×</button><span class="eyebrow" id="dialog-scope"></span><h2 id="dialog-title"></h2><p id="dialog-body" style="white-space:pre-line"></p><aside style="padding:16px;background:#f4eadb;border-right:2px solid #835735;line-height:2;font-size:13px"><strong>تفصيلة تستحق التذكّر</strong><div id="dialog-fact"></div></aside><p style="font-size:11px">للقراءة والتوثيق: <a id="dialog-source" target="_blank" rel="noopener noreferrer" style="color:#835735;text-decoration:underline"></a></p><button class="return">العودة إلى النافذة</button></dialog>
+<script src="window-demo.js"></script>
+<script src="translations.js"></script><script src="i18n.js"></script><script src="site-integration.js"></script></body></html>

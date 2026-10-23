@@ -1,0 +1,4 @@
+/* Embed only: retain the supplied demo's layout without duplicating the home heading. */
+body{background:transparent}
+main{max-width:none;padding:0 0 8px}
+@media(max-width:950px){main{padding:0 0 8px}}
