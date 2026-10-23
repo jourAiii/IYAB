@@ -1,0 +1,3 @@
+/* Actual alpha cutouts preserve the garments' original colors and animation. */
+#iyab-map #iyab-clothing .piece-display{mix-blend-mode:normal}
+#iyab-map #iyab-clothing .piece-zoom{mix-blend-mode:normal;filter:none}
