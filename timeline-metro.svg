@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 130" role="img" aria-label="قطار مترو الرياض بأسلوب ثنائي الأبعاد">
+  <g stroke="#4b3328" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="none" d="M8 87h224M16 95h208"/>
+    <path fill="#f3eee4" d="M14 84V51c0-18 12-30 31-30h151c18 0 30 11 33 29l4 34H14Z"/>
+    <path fill="#9b542f" d="M15 68h216v16H15Z"/>
+    <path fill="#2f2b28" d="M24 51c2-10 8-17 19-17h28v30H22Z"/>
+    <path fill="#d8d1c5" d="M79 34h28v30H79Zm38 0h29v30h-29Zm39 0h25c8 0 14 6 16 16l2 14h-43Z"/>
+    <path fill="#9b542f" d="M78 68h30v16H78Zm39 0h30v16h-30Z"/>
+    <path fill="#edf3f2" d="M83 70h20v12H83Zm39 0h20v12h-20Z"/>
+    <path fill="none" d="M111 21 123 7h17l13 14M128 7V2m14 5V2"/>
+    <path fill="#edf3f2" d="M15 82h16v4H15Zm193 0h18v4h-18Z"/>
+  </g>
+</svg>
